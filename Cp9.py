@@ -1,4 +1,4 @@
-def qwerty(a,b,c,d):
+def sravnenie(a,b,c,d):
     if (a>=0 | b>=0 | c>=0 | d>=0):
         if ((c-a)>=1 and (d-b)>=1) :print('Да') 
         else:
@@ -29,4 +29,4 @@ try:
 except ValueError:
     print('Число должно быть целым и неотрицательным') 
     exit() 
-qwerty(a,b,c,d)
+sravnenie(a,b,c,d)
